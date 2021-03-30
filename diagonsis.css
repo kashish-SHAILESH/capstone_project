@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap');
+img{
+    height: 40%;
+    width: 20%;  
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  body{
+     background-image: url("https://static-cse.canva.com/blob/140234/Rainbow-Gradient-Pink-and-Purple-Zoom-Virtual-Background.png");
+     font-family: 'Roboto Mono', monospace;
+    }
+
+  img:hover{
+    cursor:pointer;
+    transform:scale(1.05);
+    box-shadow:0px 0px 5px 5px rgb(220, 93, 20);
+  }
+  
+  p:hover{
+    cursor:pointer;
+    transform:scale(1.00);
+    box-shadow:0px 0px 5px 5px rgb(62, 173, 10);
+  }
+
+  p{
+    color: rgb(210, 30, 30);
+    text-align: center;
+   font-size: 20px;
+   
+  }
+
+  
+ h3{
+     text-align: center;
+     color: brown;
+ }
+
+ #navbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align: center;
+    
+  }
+  #navbar a {
+    float: left;
+    display: block;
+    color: #ee9f9f;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  /* Page content */
+.content {
+padding: 10px;
+}
+.sticky {
+position: fixed;
+top: 0;
+width: 50%;
+}
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+padding-top: 20px;
+text-align: center;
+}
+
+ 

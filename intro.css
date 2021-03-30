@@ -1,0 +1,19 @@
+body{
+    background-image: url(https://static01.nyt.com/images/2020/02/11/science/11BRODYOBESITY/11BRODYOBESITY-superJumbo.jpg);
+background-size: 100%;
+outline-style: groove;
+}
+
+h1{
+    text-align: center;
+    font-weight: normal; 
+}
+
+p{
+    text-align: center;
+    color: rgb(25, 0, 255);
+    font-weight: bold; 
+    background-color: rgb(71, 255, 102);
+    font-size: 160%;
+}
+
